@@ -1,0 +1,82 @@
+body{
+  background-color: #001020;
+}
+
+h2{
+	color: #001020;
+	margin-top: 55px;
+	font-family: verdana;
+}
+
+h1{
+	color: #13c594;
+	margin-top: 40px;
+	text-align:center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+label{
+	color: #ffff
+}
+
+.center {
+	margin: auto;
+	width:38%;
+  text-align: center;
+	background-color:#f5f5f5;
+	height:48%;
+	margin-top: 110px;
+	border-radius: 5px;
+  padding: 20px;
+}
+
+
+input[type=text],input[type=email], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width:50%;
+  background-color: #13c594;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #148d75;
+	width:50%;
+}
+
+a{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* unvisited link */
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: #148d75;
+}
+
+/* mouse over link */
+a:hover {
+  color: #148d75;
+}
+
+/* selected link */
+a:active {
+  color: #148d75;
+}
